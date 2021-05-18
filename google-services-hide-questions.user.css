@@ -46,5 +46,6 @@
     iron-overlay-backdrop { display: none !important; }
     ytd-consent-bump-lightbox { display: none !important; }
     ytd-consent-bump-v2-lightbox { display: none !important; }
+		ytd-consent-bump-renderer { display: none !important; }
     tp-yt-iron-overlay-backdrop { display: none !important; }
 }
