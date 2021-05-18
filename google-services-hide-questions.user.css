@@ -3,7 +3,7 @@
 @namespace      StylishThemes
 @author         Sylwester Zarębski
 @description    Allow to use Google services without annoying question when cookies are disabled or cleared intentionally.
-@version        1.0.8
+@version        1.0.9
 @license        CC0
 @homepageURL    https://github.com/SylwesterZarebski/Google-Services-Hide-questions
 @updateURL      https://raw.githubusercontent.com/SylwesterZarebski/Google-Services-Hide-questions/master/google-services-hide-questions.user.css
@@ -20,6 +20,7 @@
   v1.0.6 - another fix for Youtube
   v1.0.7 - fix for Google search - not working advanced menus
   v1.0.8 - another fix for Youtube
+  v1.0.9 - another fix for Youtube
 */
 
 @-moz-document regexp("https?://www\\.google\\..{2,3}/(?:search)?(?:\\?|#).*") {
@@ -46,6 +47,6 @@
     iron-overlay-backdrop { display: none !important; }
     ytd-consent-bump-lightbox { display: none !important; }
     ytd-consent-bump-v2-lightbox { display: none !important; }
-		ytd-consent-bump-renderer { display: none !important; }
+    ytd-consent-bump-renderer { display: none !important; }
     tp-yt-iron-overlay-backdrop { display: none !important; }
 }
