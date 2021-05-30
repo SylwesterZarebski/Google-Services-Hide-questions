@@ -21,6 +21,7 @@
   v1.0.7 - fix for Google search - not working advanced menus
   v1.0.8 - another fix for Youtube
   v1.0.9 - another fix for Youtube
+  v1.0.10 - another fix for Google search
 */
 
 @-moz-document regexp("https?://www\\.google\\..{2,3}/(?:search)?(?:\\?|#).*") {
@@ -29,6 +30,7 @@
     div#cnsw { display: none !important; }
     div.m114nf.aID8W { display: none !important; }
     div.bErdLd.wwYr3 { display: none !important; }
+    div.HTjtHe { display: none !important; }
 }
 
 @-moz-document regexp("https?://www\\.google\\..{2,3}/maps/.*") {
